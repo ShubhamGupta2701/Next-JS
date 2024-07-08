@@ -13,3 +13,10 @@
 - to overcome it just name the folder (folder_name) and it'll ignore the name of the folder and helps to render the page without folder name    
 
 
+## Features of Next JS
+
+- Full Stack framework
+- Search engine Optimization
+- File based Routing
+- Server Side Rendering
+- Single Codebase
