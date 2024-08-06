@@ -1,5 +1,5 @@
 export const Navbar = () =>{
-    return <div className="font-mono p-4 border-2 flex justify-center text-xl">
+    return <div className="font-mono p-4 border-b flex justify-center text-xl">
         <div className="font-extrabold flex-1">
             Learn
         </div>
