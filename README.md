@@ -23,3 +23,8 @@
 ## Routing
 - We can make Routes by create subfolders inside app directory
 - for - www.test.com/signup -> we have to create a sub-folder inside app folder and name it signup and then inside it we have to create a page.tsx file
+
+
+## Backend in NextJS
+
+- we can fetch data on nextjs server and then pre-load data in html on server itself and then share it with the client.
