@@ -11,6 +11,8 @@
 - After this, we have to create a new file named as route.ts inside it.
 - Inside route.ts we can create our API
 ```
+// GET API
+
 export function GET(){
     return Response.json({
         email : "XYZ@gmail.com",
@@ -18,4 +20,4 @@ export function GET(){
     })
 }
 ```
-- we can also declare parameters like request inside function and then use it.
+- we can also declare parameters like request inside function and then use it.  
