@@ -20,4 +20,15 @@ export function GET(){
     })
 }
 ```
-- we can also declare parameters like request inside function and then use it.  
+
+```
+// POST API
+// Simply get back hardcoded data when hit post request to server
+
+export function GET(){
+    return Response.json({
+        email : "XYZ@gmail.com",
+        name : "XYZ"
+    })
+}
+```
