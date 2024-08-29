@@ -8,7 +8,7 @@ export function GET(){
 
 export function POST(){
     return Response.json({
-        email : "shubham@gmail.com",
+        email : "Shubham@gmail.com",
         name : "Shubham Gupta",
     })
 }
