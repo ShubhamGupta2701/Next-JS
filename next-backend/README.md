@@ -1,6 +1,7 @@
 ## NextJS Backend 
 
 - This repository is to learn about NextJS Backend.
+- 57:45 (till completed)
 
 
 ## API Creation 
