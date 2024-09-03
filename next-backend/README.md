@@ -46,3 +46,9 @@ export function GET(){
 - when use prisma on development mode, remember to optimize it
 - Do singleton prisma client activate
 - so that it prevent it to load prisma and our backend
+
+## Server Action
+
+- A server action is a native funciton which can be used by server and as well as by client (kind of)
+- By doing this we don't need API's (Not always)
+- We have to speacify `use server` to use this.
