@@ -33,3 +33,10 @@ export function GET(){
     })
 }
 ```
+
+## Backend 
+
+- create a DB 
+- Initialize Prisma
+- Let it handle DB operations
+- Hit API endpoints using it.

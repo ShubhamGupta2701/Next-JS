@@ -20,10 +20,10 @@ export function Signup() {
                     <div className="pt-2">
                         <LabelledInput onChange={(e) => {
                             setUsername(e.target.value);
-                        }} label="Username" placeholder="harkirat@gmail.com" />
+                        }} label="Username" placeholder="example@gmail.com" />
                         <LabelledInput onChange={(e) => {
                             setPassword(e.target.value)
-                        }} label="Password" type={"password"} placeholder="123456" />
+                        }} label="Password" type={"password"} placeholder="*****" />
                         <button onClick={async () => {
                             const response = await axios.post("http://localhost:3000/api/user", {
                                 username,
