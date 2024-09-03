@@ -40,3 +40,9 @@ export function GET(){
 - Initialize Prisma
 - Let it handle DB operations
 - Hit API endpoints using it.
+
+## Prisma Optimizing 
+
+- when use prisma on development mode, remember to optimize it
+- Do singleton prisma client activate
+- so that it prevent it to load prisma and our backend
